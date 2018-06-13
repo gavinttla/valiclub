@@ -1,0 +1,8 @@
+{
+    "watchFolder": "less",   
+    "outputFolder": "css",
+    "mainFile": "sb-admin-2.less",   
+    "sourceMap": true,
+    "runOnce": false,
+    "minified": false
+}
