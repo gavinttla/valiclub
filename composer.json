@@ -18,7 +18,8 @@
         "laravel-admin-ext/messages": "@dev",
         "laravel/framework": "5.5.*",
         "laravel/tinker": "~1.0",
-        "mews/captcha": "^2.1"
+        "mews/captcha": "^2.1",
+        "ggadmin/admin-member": "dev-master"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.1",
