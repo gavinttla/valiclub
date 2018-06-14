@@ -37,7 +37,9 @@ return [
     'product_list' => '目前可以供选择的产品列表',
     'product_url' => '产品链接',
 
-    'approved' => '审核',
+    'approve' => '审核',
+    'approved' => '审核通过',
+    'approved_not' => '不通过',
 
     'memo' => '备注',
 

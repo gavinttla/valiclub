@@ -2,6 +2,7 @@
 
 
 use Illuminate\Routing\Router;
+//use App\Admin\Controllers\ProductController;
 
 Admin::registerAuthRoutes();
 
@@ -11,6 +12,9 @@ Route::group([
     'middleware'    => config('admin.route.middleware'),
 ], function (Router $router) {
 
+    $router->resource('product', ProductController::class);
+
     $router->get('/', 'HomeController@index');
 
 });
+

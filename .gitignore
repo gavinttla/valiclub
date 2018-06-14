@@ -4,8 +4,7 @@
 /storage/*.key
 /.idea
 /.vagrant
-/vendor/*
-!/vendor/ggadmin/
+/vendor
 Homestead.json
 Homestead.yaml
 npm-debug.log
@@ -14,3 +13,4 @@ yarn-error.log
 .project
 .buildpath
 .settings
+composer.lock

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5b51b00dd772ac8e23f435da4505281",
+    "content-hash": "ad1f171c879a322bc2a9e477091419e6",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -389,6 +389,63 @@
                 "trusted proxy"
             ],
             "time": "2017-06-15T17:19:42+00:00"
+        },
+        {
+            "name": "ggadmin/admin-member",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/richtanus/admin-member.git",
+                "reference": "dd4590641b839a70dae93e90f99d9d5aaedb4744"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/richtanus/admin-member/zipball/dd4590641b839a70dae93e90f99d9d5aaedb4744",
+                "reference": "dd4590641b839a70dae93e90f99d9d5aaedb4744",
+                "shasum": ""
+            },
+            "require": {
+                "encore/laravel-admin": "1.5.*",
+                "laravel/framework": "5.5.*",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "laravel/laravel": "5.*",
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "GG\\Admin\\Member\\MemberServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GG\\Admin\\Member\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "richard tan",
+                    "email": "richardtanus@gmail.com"
+                }
+            ],
+            "description": "Member extension for gg-admin",
+            "homepage": "https://github.com/richtanus/admin-member",
+            "keywords": [
+                "gg-admin",
+                "setting"
+            ],
+            "support": {
+                "source": "https://github.com/richtanus/admin-member/tree/master",
+                "issues": "https://github.com/richtanus/admin-member/issues"
+            },
+            "time": "2018-06-13T02:56:45+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -4584,7 +4641,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "laravel-admin-ext/messages": 20
+        "laravel-admin-ext/messages": 20,
+        "ggadmin/admin-member": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
