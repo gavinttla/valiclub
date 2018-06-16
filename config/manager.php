@@ -2,6 +2,13 @@
 
 return [
 
+
+    // every oder fee charge for our platform
+    'fee' => '2',
+
+    'fee_review' => '4',
+
+
     /*
      * Laravel-admin name.
      */
@@ -92,10 +99,10 @@ return [
         //'users_table' => 'admin_users',
         'users_table' => 'users',
         'users_model' => Encore\Admin\Auth\Database\Administrator::class,
-        
+
         'product_table' => 'products',
         'product_model' => App\Http\Manager\Auth\Database\Product::class,
-        
+
         'image_table' => 'images',
         'image_model' => App\Http\Manager\Auth\Database\Image::class,
 
